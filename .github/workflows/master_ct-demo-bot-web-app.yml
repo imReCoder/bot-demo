@@ -53,4 +53,4 @@ jobs:
           app-name: 'ct-demo-bot-web-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B34DAFF57914F0C8EEF5E7ED525EC8B }}
-          package: .
+          package: /libs
